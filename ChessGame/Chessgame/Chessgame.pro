@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2022-04-27T21:49:08
+# Project created by QtCreator 2022-05-05T18:47:08
 #
 #-------------------------------------------------
 
@@ -8,13 +8,16 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = calculate
+TARGET = Chessgame
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        widget.cpp
+        chess.cpp \
+    chessform.cpp
 
-HEADERS  += widget.h
+HEADERS  += chess.h \
+    chessform.h
 
-FORMS    += widget.ui
+FORMS    += chess.ui \
+    chessform.ui
