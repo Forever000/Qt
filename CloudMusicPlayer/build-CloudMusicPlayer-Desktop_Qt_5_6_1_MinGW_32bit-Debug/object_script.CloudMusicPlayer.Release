@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\cloudmusicplayer.o
+./release\loginwidget.o
+./release\userregister.o
+./release\dialogsetting1.o
+./release\cloudjson.o
+./release\kugoujson.o
+./release\qrc_img.o
+./release\moc_cloudmusicplayer.o
+./release\moc_loginwidget.o
+./release\moc_userregister.o
+./release\moc_dialogsetting1.o
+);

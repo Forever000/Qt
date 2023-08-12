@@ -1,0 +1,14 @@
+INPUT(
+./debug\main.o
+./debug\cloudmusicplayer.o
+./debug\loginwidget.o
+./debug\userregister.o
+./debug\dialogsetting1.o
+./debug\cloudjson.o
+./debug\kugoujson.o
+./debug\qrc_img.o
+./debug\moc_cloudmusicplayer.o
+./debug\moc_loginwidget.o
+./debug\moc_userregister.o
+./debug\moc_dialogsetting1.o
+);
