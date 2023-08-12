@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>img/帮助.png</file>
+        <file>img/保存.png</file>
+        <file>img/编辑.png</file>
+        <file>img/窗口.png</file>
+        <file>img/打开文件.png</file>
+        <file>img/另存为.png</file>
+        <file>img/退出.png</file>
+        <file>img/文件.png</file>
+        <file>img/新建文件.png</file>
+    </qresource>
+</RCC>

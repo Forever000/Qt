@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>扫雷小游戏</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="image/res.qrc">
+    <normaloff>:/bomb.png</normaloff>:/bomb.png</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>新游戏</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>难度</string>
+    </property>
+    <addaction name="actiona"/>
+    <addaction name="actionb"/>
+    <addaction name="actionc"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actiona">
+   <property name="text">
+    <string>初级 9*9 10个雷</string>
+   </property>
+  </action>
+  <action name="actionb">
+   <property name="text">
+    <string>中级 16*16 40个雷</string>
+   </property>
+  </action>
+  <action name="actionc">
+   <property name="text">
+    <string>高级 16*40 99个雷</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="image/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

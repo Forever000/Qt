@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bomb.png</file>
+        <file>flag.png</file>
+        <file>background.jpg</file>
+        <file>bg.jpg</file>
+        <file>bg2.jpg</file>
+        <file>bg3.jpg</file>
+        <file>boom.gif</file>
+        <file>boombg.jpg</file>
+        <file>exit.png</file>
+        <file>start.png</file>
+    </qresource>
+</RCC>

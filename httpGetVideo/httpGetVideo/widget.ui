@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>635</width>
+    <height>468</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="2">
+    <widget class="QPushButton" name="btn_sure">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Go</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>URL</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="3">
+    <widget class="QTextEdit" name="textEdit"/>
+   </item>
+   <item row="1" column="0" colspan="3">
+    <widget class="QProgressBar" name="progressBar">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>http://v9-xg-web-s.ixigua.com/0c2d63e537e1e5d7f03e21b2949e2ed1/629f1038/video/tos/cn/tos-cn-ve-4-alinc2/0c23367de19f4a75b25f7d97cd728247/?a=1768&amp;ch=0&amp;cr=0&amp;dr=0&amp;er=0&amp;lr=default&amp;cd=0%7C0%7C0%7C0&amp;cv=1&amp;br=351&amp;bt=351&amp;cs=0&amp;ds=1&amp;ft=FnzETNN6VkJwbIMmq8dzJLeOYZlcaHfyF2bLNckW0iZm&amp;mime_type=video_mp4&amp;qs=0&amp;rc=N2k5NDozPGgzZmczZDtnZkBpMzl0NDg6Zm5kOjMzNDczM0BgYTNjNWJgXzExLTQ1MTEvYSNeamJycjQwM25gLS1kLTBzcw%3D%3D&amp;l=2022060715343301015801819601067381</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
